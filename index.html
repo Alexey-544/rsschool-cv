@@ -3,13 +3,156 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="rsschool-cv-html">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@600;700&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <button name="Click" type="button">Click</button>
+
+    <header class="header">
+        <div class="container">
+            <div class="header__items">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a class="nav__link" href="#about">About me</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#education">Education</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#languages">Languages</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#code">Code</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#skills">Skills</a></li>
+                        <li class="nav__item"><a class="nav__link" href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="name">
+                <img src="assets/img/foto.jpg" alt="Foto my" class="foto">
+                <div class="name__title">
+                    <h1>Polshikov Alexey</h1>
+                    <h2>Junior Frontend Developer</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div>
+                <section class="section" id="about">
+                    <div class="title">
+                        <h3>About me</h3>
+                    </div>
+                    <div>
+                        <p>Hello! My name is Alexey, I am a positive and happy person. I like to read books and
+                            exercise. My
+                            main qualities are the ability to work in a team and learn quickly. My ability to learn and
+                            acquire new skills will help me become an experienced Frontend developer.</p>
+                    </div>
+                </section>
+                <section class="section" id="education">
+                    <div class="title">
+                        <h3>Education</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="https://www.samgups.ru/">Samara State University of Railway Engineering</a>
+                        </li>
+                        <li>
+                            <a href="https://rs.school/js/">RS School(in proссess..)</a>
+                        </li>
+                    </ul>
+
+                </section>
+                <section class="section" id="languages">
+                    <div class="title">
+                        <h3>Languages</h3>
+                    </div>
+                    <div>
+                        <ul>
+                            <li>
+                                Russian - native speaker
+                            </li>
+                            <li>
+                                English - A1
+                            </li>
+                        </ul>
+                    </div>
+
+                </section>
+                <section class="section" id="code">
+                    <div class="title">
+                        <h3>Code</h3>
+                    </div>
+                    <pre>
+                    <code>
+                        function helloWorld() {
+                            let str = "Hello World!";
+                            console.log(str) 
+                          }
+                    </code>
+                </pre>
+                </section>
+            </div>
+            <aside>
+                <section class="section" id="skills">
+                    <div class="title">
+                        <h3>Skills</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            HTML5, CSS3
+                        </li>
+                        <li>
+                            JavaScript Basics
+                        </li>
+                        <li>
+                            Git, GitHub
+                        </li>
+                        <li>
+                            VS Code
+                        </li>
+                        <li>
+                            Adobe Photoshop
+                        </li>
+                    </ul>
+                </section>
+                <section class="section" id="contact">
+                    <div class="title">
+                        <h3>Contact</h3>
+                    </div>
+                    <ul>
+                        <li>
+                            Discord: Alexey_Polshikov#8130
+                        </li>
+                        <li>
+                            Mail: 544-lexa@mail.ru
+                        </li>
+                        <li>
+                            <a href="https://t.me/Alexey_Polshikov">Telegram</a>
+                        </li>
+                    </ul>
+                </section>
+            </aside>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__header">
+            <a href="https://github.com/Alexey-544">
+                <img class="footer__logo" src="assets/png/github.png" alt="github">
+            </a>
+            <p>2022</p>
+            <a href="https://rs.school/js/">
+                <img class="footer__logo" src="https://mrks77.github.io/rsschool-cv/img/rs_school_js.svg"
+                    alt="RSSchool link">
+            </a>
+        </div>
+    </footer>
+
 </body>
 
 </html>
